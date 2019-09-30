@@ -1,0 +1,1092 @@
+Script started on 2019-04-25 13:36:32+0200
+Changement du PATH :
+~
+~/ISEL/.script_utiles
+
+-------------------------------------------------------
+Changement du CLASSPATH :
+~/Java/Classes
+
+-------------------------------------------------------
+Scripts ajoutés dans .script_utiles :
+storm <lang> : lancer un IDE Jetbrains de son choix.
+mkfile <lib> : créer un fichier makefile pour une librairie C.
+
+-------------------------------------------------------
+Alias ajoutés :
+chscript <arg> : chmod u+x <arg>
+del <args> : mv --target-directory=~/Poubelle $@
+list : ls ~/Poubelle/* > ~/Poubelle/.listing;cat ~/Poubelle/.listing
+empty : cat ~/Poubelle/.listing | xargs rm
+
+-------------------------------------------------------
+UOD :
+Saint du jour : Marc
+-------------------------------------------------------
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ mkdir s er_games
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ ls
+reponsesSALEZ.txt  [0m[01;34mser_games[0m  typescript
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ cd ser_ggames/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ mkdir libsh bin data games_{aivai[K[K[K[Kvailable,enabled}
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cp ../../
+CTPSALEZ_avril2019/    lib.sh                 quizz.sh
+CTP UOD FAB 1819.docx  lib.sh~                
+CTP UOD FAB 1819.pdf   pays.dat               
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cp ../../lib.sh libsh/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cd ..
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ k[Kls
+[0m[01;32mquizz.sh[0m  reponsesSALEZ.txt  [01;34mser_games[0m  typescript
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ mv quizzz.sh ser_games/games_available/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ ls
+reponsesSALEZ.txt  [0m[01;34mser_games[0m  typescript
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ cd ser_ggames/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cd games_available/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ ls
+[0m[01;32mquizz.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ gedit quizz.sh &
+[1] 3143
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ cd ../..7[K
+[1]+  Done                    gedit quizz.sh  (wd: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available)
+(wd now: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019)
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ ls
+[0m[01;32mlib.sh[0m  reponsesSALEZ.txt  [01;34mser_games[0m  typescript
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ mv lib.ssh ser_games/libsh/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019[00m$ cd ser_ggames/libsh/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/libsh[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/libsh[00m$ ls
+[0m[01;32mlib.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/libsh[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/libsh[00m$ cd ..
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cd games_available/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ ls
+[0m[01;32mquizz.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ ./quizz.sh [K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cd data
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/data[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/data[00m$ ls
+pays.txt
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/data[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/data[00m$ mv pays.txt pays.data
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/data[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/data[00m$ mv pays.txt pays.data[C[C[C[C[C[C[C[C[Kmv pays.data pays.dat
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/data[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/data[00m$ cd ../ser_[K[K[K[Kgames_available/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ ls
+[0m[01;32mquizz.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ ./quizz.sh ../data/pays.dat 1 2
+../libsh/lib.sh: line 46: lib.sh: No such file or directory
+../libsh/lib.sh: line 46: lib.sh: No such file or directory
+pays : Antigua
+capitales : ?
+LSSD
+Faux ! La bonne réponse était : 'Saint-John's' ( vous avez écrit 'LSSD' )
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ clear./quizz.sh ../data/pays.dat 1 2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K./quizz.sh ../data/pays.dat 1 2
+pays : Paraguay
+capitales : ?
+Asuncion
+Bonne réponse !
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_available[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_available[00m$ cd ..
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ms[K[Kls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cd bin
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ls
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ gedit ser eng[K[K[K[K_eng.sh &
+[1] 3347
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ chscript ser_eng.sh 
+[1]+  Done                    gedit ser_eng.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh 
+Il faut 1 argument pour ce script. 
+./ser_eng.sh <cheminFichier>
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ man ls
+[?1049h[22;0;0t[?1h=LS(1)                            User Commands                           LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about  the FILEs (the current directory by default).[m
+       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m  is  speci‐[m
+       fied.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ man ln
+[?1049h[22;0;0t[?1h=LN(1)                            User Commands                           LN(1)[m
+[m
+[1mNAME[0m[m
+       ln - make links between files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mln[0m [[4mOPTION[24m]... [[4m-T[24m] [4mTARGET[24m [4mLINK_NAME[24m   [4m(1st[24m [4mform)[24m[m
+       [1mln[0m [[4mOPTION[24m]... [4mTARGET[24m                  [4m(2nd[24m [4mform)[24m[m
+       [1mln[0m [[4mOPTION[24m]... [4mTARGET[24m... [4mDIRECTORY[24m     [4m(3rd[24m [4mform)[24m[m
+       [1mln[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mTARGET[24m...  [4m(4th[24m [4mform)[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       In  the  1st form, create a link to TARGET with the name LINK_NAME.  In[m
+       the 2nd form, create a link to TARGET in the current directory.  In the[m
+       3rd  and  4th  forms, create links to each TARGET in DIRECTORY.  Create[m
+       hard links by default, symbolic links  with  [1m--symbolic[0m.   By  default,[m
+       each  destination  (name  of  new link) should not already exist.  When[m
+       creating hard links, each TARGET must exist.  Symbolic links  can  hold[m
+       arbitrary  text;  if  later resolved, a relative link is interpreted in[m
+       relation to its parent directory.[m
+[m
+       Mandatory arguments to long options are  mandatory  for  short  options[m
+       too.[m
+[7m Manual page ln(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--backup[0m[=[4mCONTROL[24m][m
+[7m Manual page ln(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              make a backup of each existing destination file[m
+[7m Manual page ln(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
+[7m Manual page ln(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m, [1m-F[0m, [1m--directory[0m[m
+[7m Manual page ln(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              allow  the  superuser to attempt to hard link directories (note:[m
+[7m Manual page ln(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              will probably fail due to  system  restrictions,  even  for  the[m
+[7m Manual page ln(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              superuser)[m
+[7m Manual page ln(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--force[0m[m
+[7m Manual page ln(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              remove existing destination files[m
+[7m Manual page ln(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--interactive[0m[m
+[7m Manual page ln(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              prompt whether to remove destinations[m
+[7m Manual page ln(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m, [1m--logical[0m[m
+[7m Manual page ln(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              dereference TARGETs that are symbolic links[m
+[7m Manual page ln(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--no-dereference[0m[m
+[7m Manual page ln(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              treat  LINK_NAME  as a normal file if it is a symbolic link to a[m
+[7m Manual page ln(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              directory[m
+[7m Manual page ln(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[0m, [1m--physical[0m[m
+[7m Manual page ln(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              make hard links directly to symbolic links[m
+[7m Manual page ln(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--relative[0m[m
+[7m Manual page ln(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              create symbolic links relative to link location[m
+[7m Manual page ln(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--symbolic[0m[m
+[7m Manual page ln(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              make symbolic links instead of hard links[m
+[7m Manual page ln(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m[m
+[7m Manual page ln(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              override the usual backup suffix[m
+[7m Manual page ln(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--target-directory[0m=[4mDIRECTORY[24m[m
+[7m Manual page ln(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              specify the DIRECTORY in which to create the links[m
+[7m Manual page ln(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-T[0m, [1m--no-target-directory[0m[m
+[7m Manual page ln(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              treat LINK_NAME as a normal file always[m
+[7m Manual page ln(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 43 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ history | grep "ln"
+ 1652  [01;31m[Kln[m[K -s WEB /var/www/
+ 1653  sudo [01;31m[Kln[m[K -s WEB /var/www
+ 1661  sudo [01;31m[Kln[m[K -s WEB /var/www/html
+ 1668  sudo [01;31m[Kln[m[K -s WEB /var/www/html
+ 1690  [01;31m[Kln[m[K -s www /var/www/
+ 1691  sudo [01;31m[Kln[m[K -s www /var/www/
+ 1773  [01;31m[Kln[m[K -s /var/www/html/ WEB
+ 2047  man [01;31m[Kln[m[K
+ 2048  history | grep "[01;31m[Kln[m[K"
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/quizz.sh 
+Le fichier ../games_available/quizz.sh ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/quizz.sh 
+./ser_eng.sh: line 23: syntax error in conditional expression: unexpected token `('
+./ser_eng.sh: line 23: syntax error near `+(../games_available/)(['
+./ser_eng.sh: line 23: `if [[ $1 != +(../games_available/)([a-zA-Z])* ]]'
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear./ser_eng.sh ../games_available/quizz.sh 
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/quizz.sh 
+Le fichier ../games_available/quizz.sh ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/quizz.sh 
+Le fichier ../games_available/quizz.sh ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/quizz.sh 
+Le fichier ../games_available/quizz.sh ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear./ser_eng.sh ../games_available/quizz.sh 
+Le fichier ../games_available/quizz.sh ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/quizz.sh 
+Le fichier ../games_available/quizz.sh ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/quizz.sh [K[K[K[K[K[K[K[K[K
+Le fichier ../games_available/ ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/[K
+Le fichier ../games_available ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available[K
+Le fichier ../games_availabl n'existe pas.
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available
+Le fichier ../games_available ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear./ser_eng.sh ../games_available
+Le fichier ../games_available ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available
+Le fichier ../games_available ne se situe pas dans le répertoire ../games_available
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/sd
+Le fichier ../games_available/sd n'existe pas.
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/sd[K[Kquizz.sh 
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/quizz.sh 
+Executable quizz.sh choisi
+./ser_eng.sh: line 31: unexpected EOF while looking for matching `"'
+./ser_eng.sh: line 32: syntax error: unexpected end of file
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ cm[Klear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear./ser_eng.sh ../games_available/quizz.sh 
+Executable quizz.sh choisi
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ cd ../games_enabled/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ ls
+[0m[01;36mquizz.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ cd ..
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cd bin
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ gedit ser_disg [K.sh &
+[1] 4090
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ gedit ser_di[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;32mser_eng.sh[0m
+[1]+  Done                    gedit ser_disg.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ gedit ser_disg.sh &
+[1] 4103
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J[1]+  Done                    gedit ser_disg.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ls
+ser_disg.sh  [0m[01;32mser_eng.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ chscript ser_disg.sh 
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh qui[K[K[K../games_available/quizz.sh
+Executable quizz.sh choisi
+ln: failed to create symbolic link '../games_enabled/quizz.sh': File exists
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_eng.sh ../games_available/quizz.sh[1P[1P[1P[1@d[1@i[1@s[1@q[1P[1@g
+Executable quizz.sh choisi
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_disg.sh ../games_available/quizz.sh[1P[1P[1P[1P[1@e[1@n[1@g
+Executable quizz.sh choisi
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ cd ..
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cd games_enabled/
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ ms
+ms: command not found
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ 
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ ls
+[0m[01;36mquizz.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ ./[K[Kgedit multiplications.sh &
+[1] 4180
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ ./mu[K[K[K[Kls
+multiplications.sh  [0m[01;36mquizz.sh[0m
+[1]+  Done                    gedit multiplications.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ chscript multiplications.sh 
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ ./s[Kmultiplications.sh 
+./multiplications.sh: line 9: =: command not found
+./multiplications.sh: line 10: =: command not found
+expr: syntax error
+./multiplications.sh: line 11: =: command not found
+  *  = ?
+^C
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ ck[Klear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ clear./multiplications.sh 
+./multiplications.sh: line 9: =: command not found
+./multiplications.sh: line 10: =: command not found
+expr: syntax error
+./multiplications.sh: line 11: =: command not found
+  *  = ?
+^C
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ ./multiplications.sh 
+./multiplications.sh: line 9: 1: command not found
+./multiplications.sh: line 10: 1: command not found
+expr: syntax error
+  *  = ?
+^C
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ [K[A]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ clear./multiplications.sh 
+expr: syntax error
+ 2 * 9 = ?
+11
+Mauvaise réponse :(
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ ./multiplications.sh 
+4 * 7 = ?
+28
+Bonne réponse !
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ gedit multiplications.sh &
+[1] 4345
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/games_enabled[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/games_enabled[00m$ cd ..
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34mgames_available[0m  [01;34mgames_enabled[0m  [01;34mlibsh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess[00m$ cd ..[K[Kbin
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ls
+[0m[01;32mser_disg.sh[0m  [01;32mser_eng.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ gedit ser_games.sh &
+[2] 4354
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ chscript ser_games.sh 
+[2]+  Done                    gedit ser_games.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ls [K[K[Kls -i ../games_available
+2498810 [0m[01;32mquizz.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ls -i ../games_available[K[K[K[K[K[K[K[K[Kenabled
+2495857 [0m[01;32mmultiplications.sh[0m  2493573 [01;36mquizz.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+read
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ echo $data
+
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ echo $data[C[C[C[C[C[C[C[5Pclear./ser_games.sh 
+Pseudo :
+read
+2495857 multiplications.sh 2493573 quizz.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh | wv[Kc
+^C
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh | wc
+dsd
+      2       6      53
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh | wc -w
+sd
+6
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh | wc -w[K[K[K[K[Kt[K[K[K[K
+Pseudo :
+rd
+4]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+sdqsd
+2
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+sqdqsd
+2495857 multiplications.sh 2493573 quizz.sh
+./ser_games.sh: line 21: syntax error near unexpected token `$i'
+./ser_games.sh: line 21: `	tabInodes($i)=$(echo $data | tr '\n' ' ' | cut -d\  -f$i)'
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ 
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+dsqd
+2495857 multiplications.sh 2493573 quizz.sh
+./ser_games.sh: line 21: syntax error near unexpected token `${i}'
+./ser_games.sh: line 21: `	tabInodes(${i})=$(echo $data | tr '\n' ' ' | cut -d\  -f$i)'
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+dsqd
+2495857 multiplications.sh 2493573 quizz.sh
+./ser_games.sh: line 21: syntax error near unexpected token `i'
+./ser_games.sh: line 21: `	tabInodes(i)=$(echo $data | tr '\n' ' ' | cut -d\  -f$i)'
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear./ser_games.sh
+Pseudo :
+sqd
+2495857 multiplications.sh 2493573 quizz.sh
+2495857
+multiplications.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+sqd
+2495857
+multiplications.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear./ser_games.sh
+Pseudo :
+qsd
+2495857 - multiplications.sh
+multiplications.sh - 2493573
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+sqd
+2495857 - multiplications.sh
+multiplications.sh - quizz.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+dsqd
+2495857 - multiplications.sh
+2493573 - quizz.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+read
+Jeux autorisés :
+2495857 - multiplications.sh
+2493573 - quizz.sh
+Choisissez votre jeu à partir du numéro
+2493573
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+dsqd
+Jeux autorisés :
+2495857 - multiplications.sh
+2493573 - quizz.sh
+Choisissez votre jeu à partir du numéro
+2493573 3
+2495857
+
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+dsqd
+Jeux autorisés :
+2495857 - multiplications.sh
+2493573 - quizz.sh
+Choisissez votre jeu à partir du numéro
+2493573
+2495857
+2493573
+Jeu quizz.sh sélectionné
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh
+Pseudo :
+ser
+Jeux autorisés :
+2495857 - multiplications.sh
+2493573 - quizz.sh
+Choisissez votre jeu à partir du numéro
+2493573
+Jeu quizz.sh sélectionné
+Il faut 3 arguments pour ce script. 
+./quizz.sh <cheminFichier> <numColQ> <numColR>
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+Nahn
+Jeux autorisés :
+2495857 - multiplications.sh
+2493573 - quizz.sh
+Choisissez votre jeu à partir du numéro
+2495573   857
+Jeu multiplications.sh sélectionné
+10 * 9 = ?
+90
+Bonne réponse !
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ c[Kclear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear[Kls
+[0m[01;32mser_disg.sh[0m  [01;32mser_eng.sh[0m  [01;32mser_games.sh[0m
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ gedit ../libsh/lib.sh &
+[2] 5589
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ cat SER[K[K[K$SER_SCORE
+^C
+[2]+  Done                    gedit ../libsh/lib.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+NA aysson
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2495193 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+1
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+./ser_games.sh: line 69: trierScores: command not found
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear./ser_games.sh 
+Pseudo :
+read
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2495193 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+0
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+n
+n
+^C
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ echo $SER_SCORE
+
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ser_s[K[K[K[Ks[K[KSER_SCR[KORE [K=../data/score.dat
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ SER_SCORE=../data/score.dat[C[C[C[C[C[C[C[12Pecho $SER_SCORE[C[C[C[C[C[C[C./ser_games.sh 
+Pseudo :
+eeas
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2495193 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+0
+Voulez-vous jouer à un autre jeu ? (y/n)
+, n
+^[[A^C
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh [C[C[C[C[C[C[CSER_SCORE=../data/score.dat[C[C[C[C[C[C[C[12P./ser_games.sh [C[C[C[C[C[C[CSER_SCORE=../data/score.dat
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ export SER_SCORE
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ export SER_SCORE[C[C[C[C[C[C[CSER_SCORE=../data/score.dat[C[C[C[C[C[C[C[12P./ser_games.sh [C[C[C[C[C[C[CSER_SCORE=../data/score.dat[C[C[C[C[C[C[C[12P./ser_games.sh 
+Pseudo :
+ead
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2495193 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+0
+Affichage des 10 meilleurs joueurs
+10 meilleurs joueurs :
+head: invalid number of lines: ‘../data/score.dat’
+Voulez-vous jouer à un autre jeu ? (y/n)
+n y
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2495193 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+1
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+rsqx
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2495193 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu à réinitialiser (ex :  )
+m quizz.sh
+NATHAN:15:quizz.sh
+Nathan:12:multiplications.sh
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+qds
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2495193 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+0
+Affichage des 10 meilleurs joueurs
+10 meilleurs joueurs :
+Nathan:12:multiplications.sh
+NATHAN:15:quizz.sh
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+nf
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2495193 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu à réinitialiser (ex : multiplications.sh )
+quizz.sh
+Nathan:12:multiplications.sh
+NATHAN:15:quizz.sh
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh [C[C[C[C[C[C[Cexport SER_SCORE[C[C[C[C[C[C[C[1P./ser_games.sh 
+Pseudo :
+dfs
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2495193 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu à réinitialiser (ex : multiplications.sh )
+quizz.sh
+Nathan:12:multiplications.sh
+NATHAN:15:quizz.sh
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+sqd
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2493444 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+quizz
+Nathan:12:multiplications
+NATHAN:15:quizz
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear
+[3J[H[2J]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ clear./ser_games.sh 
+Pseudo :
+sdq
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2493444 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+qsdqsd      quizz
+Nathan:12:multiplications
+NATHAN:15:quizz
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+sqdd
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2493444 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+quizz
+sed: -e expression #1, char 1: unknown command: `''
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh [C[C[C[C[C[C[C[10Pclear./ser_games.sh 
+Pseudo :
+sqd
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+2493444 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+sd
+Nathan:12:multiplications
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+dsqd
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+quizz
+Nathan:12:multiplications
+NATHAN:15:quizz
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+sqdsd
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+quizz
+Nathan:12:multiplications
+NATHAN:15:quizz
+Voulez-vous jouer à un autre jeu ? (y/n)
+, , n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+qsdq
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+quizz
+Nathan:12:multiplications
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+dsd
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+0
+Affichage des 10 meilleurs joueurs
+10 meilleurs joueurs :
+Nathan:12:multiplications
+NATHAN:15:quizz
+Moi:20:multiplications
+Lui:5:quizz
+Voulez-vous jouer à un autre jeu ? (y/n)
+s
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+quizz
+Voulez-vous jouer à un autre jeu ? (y/n)
+f
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+a
+Donnez le nom du jeu (sans '.sh') dont les métadonnées sont à visualiser.
+quizz
+quizz:1:3:pseudo
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ gedit ser_config &. &s &h &
+[2] 6648
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ gedit ser_config.sh &[C[C[C[C[C[C[C[6P./ser_games.sh 
+Pseudo :
+qsd
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+
+sed: -e expression #1, char 0: no previous regular expression
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+[2]+  Done                    gedit ser_config.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+Test
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2493573
+Jeu quizz.sh sélectionné
+Il faut 4 arguments pour ce script. 
+./quizz.sh <cheminFichier> <numColQ> <numColR> <pseudo>
+Voulez-vous jouer à un autre jeu ? (y/n)
+y
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+^C
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+naysson
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2495855
+Jeu multiplications.sh sélectionné
+4 * 9 = ?
+36
+Bonne réponse !
+Voulez-vous continuer ? (y/n)
+y
+10 * 3 = ?
+30
+Bonne réponse !
+Voulez-vous continuer ? (y/n)
+ds  n
+Cette fonction doit être appelée de la manière suivante :
+ajouterScore <pseudo> <score> <jeu>
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+naysson
+declare -x CLASSPATH="/home/nsalez/Java/Classes"
+declare -x CLUTTER_IM_MODULE="xim"
+declare -x COLORTERM="truecolor"
+declare -x DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"
+declare -x DEFAULTS_PATH="/usr/share/gconf/ubuntu.default.path"
+declare -x DESKTOP_SESSION="ubuntu"
+declare -x DISPLAY=":0"
+declare -x GDMSESSION="ubuntu"
+declare -x GJS_DEBUG_OUTPUT="stderr"
+declare -x GJS_DEBUG_TOPICS="JS ERROR;JS LOG"
+declare -x GNOME_DESKTOP_SESSION_ID="this-is-deprecated"
+declare -x GNOME_SHELL_SESSION_MODE="ubuntu"
+declare -x GNOME_TERMINAL_SCREEN="/org/gnome/Terminal/screen/b3d1f93f_06ba_4780_a67e_b450ad93a409"
+declare -x GNOME_TERMINAL_SERVICE=":1.95"
+declare -x GPG_AGENT_INFO="/run/user/1000/gnupg/S.gpg-agent:0:1"
+declare -x GTK2_MODULES="overlay-scrollbar"
+declare -x GTK_IM_MODULE="ibus"
+declare -x GTK_MODULES="gail:atk-bridge"
+declare -x HOME="/home/nsalez"
+declare -x IM_CONFIG_PHASE="2"
+declare -x LANG="en_US.UTF-8"
+declare -x LC_ADDRESS="fr_FR.UTF-8"
+declare -x LC_IDENTIFICATION="fr_FR.UTF-8"
+declare -x LC_MEASUREMENT="fr_FR.UTF-8"
+declare -x LC_MONETARY="fr_FR.UTF-8"
+declare -x LC_NAME="fr_FR.UTF-8"
+declare -x LC_NUMERIC="fr_FR.UTF-8"
+declare -x LC_PAPER="fr_FR.UTF-8"
+declare -x LC_TELEPHONE="fr_FR.UTF-8"
+declare -x LC_TIME="fr_FR.UTF-8"
+declare -x LESSCLOSE="/usr/bin/lesspipe %s %s"
+declare -x LESSOPEN="| /usr/bin/lesspipe %s"
+declare -x LOGNAME="nsalez"
+declare -x LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"
+declare -x MANDATORY_PATH="/usr/share/gconf/ubuntu.mandatory.path"
+declare -x OLDPWD="/home/nsalez/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games"
+declare -x PATH="/home/nsalez/bin:/home/nsalez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nsalez:/home/nsalez/ISEL/.script_utiles:/home/nsalez:/home/nsalez/ISEL/.script_utiles"
+declare -x PWD="/home/nsalez/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin"
+declare -x QT4_IM_MODULE="xim"
+declare -x QT_ACCESSIBILITY="1"
+declare -x QT_IM_MODULE="ibus"
+declare -x QT_QPA_PLATFORMTHEME="appmenu-qt5"
+declare -x SER_SCORE="../data/score.dat"
+declare -x SESSION_MANAGER="local/nsalez-VirtualBox:@/tmp/.ICE-unix/1380,unix/nsalez-VirtualBox:/tmp/.ICE-unix/1380"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="3"
+declare -x SSH_AGENT_PID="1485"
+declare -x SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
+declare -x TERM="xterm-256color"
+declare -x TEXTDOMAIN="im-config"
+declare -x TEXTDOMAINDIR="/usr/share/locale/"
+declare -x USER="nsalez"
+declare -x USERNAME="nsalez"
+declare -x VTE_VERSION="5202"
+declare -x WINDOWPATH="2"
+declare -x XAUTHORITY="/run/user/1000/gdm/Xauthority"
+declare -x XDG_CONFIG_DIRS="/etc/xdg/xdg-ubuntu:/etc/xdg"
+declare -x XDG_CURRENT_DESKTOP="ubuntu:GNOME"
+declare -x XDG_DATA_DIRS="/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop"
+declare -x XDG_MENU_PREFIX="gnome-"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SEAT="seat0"
+declare -x XDG_SESSION_DESKTOP="ubuntu"
+declare -x XDG_SESSION_ID="2"
+declare -x XDG_SESSION_TYPE="x11"
+declare -x XDG_VTNR="2"
+declare -x XMODIFIERS="@im=ibus"
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+n
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+naysson
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2496485 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2496485
+Jeu multiplications.sh sélectionné
+./../games_enabled/multiplications.sh: line 11: Il faut un pseudo !: command not found
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh [C[C[C[C[C[C[Cgedit ser_config.sh &[C[C[C[C[C[C[C[6P./ser_games.sh 
+Pseudo :
+naysson
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495855 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2495855
+Jeu multiplications.sh sélectionné
+3 * 10 = ?
+30
+Bonne réponse !
+Voulez-vous continuer ? (y/n)
+n
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_games.sh 
+Pseudo :
+NAYSSON
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2495913 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2495913
+Jeu multiplications.sh sélectionné
+7 * 3 = ?
+21
+Bonne réponse !
+Voulez-vous continuer ? (y/n)
+n
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ gedit ser_config.sh &
+[2] 7015
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ ./ser_d[Kgames.sh 
+Pseudo :
+Na
+Jeux autorisés :
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2496485 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+0
+Affichage des 10 meilleurs joueurs
+10 meilleurs joueurs :
+naysson:1:multiplications
+NAYSSON:1:multiplications
+Voulez-vous jouer à un autre jeu ? (y/n)
+qs
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2496485 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+a
+Donnez le nom du jeu (sans '.sh') dont les métadonnées sont à visualiser.
+quizz
+quizz:1:3
+Voulez-vous jouer à un autre jeu ? (y/n)
+ds
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2496485 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2
+Donnez le nom du jeu (sans '.sh') à réinitialiser
+quizz
+Voulez-vous jouer à un autre jeu ? (y/n)
+sq
+0 - Afficher les scores des 10 meilleurs joueurs.
+1 - Effacer tous les scores.
+2 - Effacer les scores d'un jeu.
+a - Afficher les métas données d'un jeu
+2496485 - multiplications.sh
+2493573 - quizz.sh
+---------------------------------------
+Choisissez votre jeu à partir du numéro
+2496485
+Jeu multiplications.sh sélectionné
+2 * 10 = ?
+20
+Bonne réponse !
+Voulez-vous continuer ? (y/n)
+n
+Voulez-vous jouer à un autre jeu ? (y/n)
+n
+[2]+  Done                    gedit ser_config.sh
+]0;nsalez@nsalez-VirtualBox: ~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_games/bin[01;32mnsalez@nsalez-VirtualBox[00m:[01;34m~/UOD/CTP/CTP UOD 2018-2019/CTPSALEZ_avril2019/ser_gamess/bin[00m$ exit
+exit
+
+Script done on 2019-04-25 16:28:19+0200

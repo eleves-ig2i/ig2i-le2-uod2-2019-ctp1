@@ -1,0 +1,25 @@
+
+2) numéro inode d'un fichier => option -i
+
+3) PATH contient des chemins permettant d'exécuter un fichier exécutable à partir de n'importe quel répertoire, en indiquant juste le nom du fichier.
+
+4) UN programme ayant le bit suid actif s'exécutera avec l'UID du propriétaire du fichier, et non avec celui de l'utilisateur qui le lance (par exemple la commande passwd dont le propriétaire est root).
+
+5) Le sticky bit permet d'interdire à tout utilisateur (sauf root et le propriétaire du répertoire) de supprimer un fichier appartenant au répertoire.
+Il faut donc positionner le sticky bit sur la classe "autres".
+Sticky bit + droits rw pour tous (absolue) : chmod 1666 <cible> 
+Bit suid (symbolique) chmod a+s <fichier> sur les fichiers déjà exécutables.  
+
+
+6) Une commande retourne 0 en cas de succès.
+
+
+SCRIPT :
+
+Structure de données utilisée pour ser_data :
+Une ligne par jeu.
+<nomjeu>:<argument1>:<argument2>:<argument3> #pour un jeu qui nécessite 3 arguments.
+<nomjeu> #pour un jeu nécessitant 0 argument.
+
+
+=> Toutes les questions effectuées sauf la 15).
